@@ -1,0 +1,593 @@
+@media (max-width: 2000px) {
+  .design__nav-logo {
+    left: 630px;
+  }
+
+  .design__nav-text:hover {
+    color: #a57526;
+  }
+
+  .header__block-btn2 {
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    display: block;
+    z-index: 1;
+    background: none;
+  }
+
+  .header__nav-block {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    top: 0;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .header__nav-block.active {
+    left: 0;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1800px) {
+  .design__nav-logo {
+    left: 555px;
+  }
+
+  .design__part-text {
+    max-width: 1041px;
+    margin-bottom: 99px;
+  }
+
+  .design__part-logo {
+    width: 363px;
+    height: 66px;
+  }
+}
+
+@media (max-width: 1717px) {
+  .design__nav-logo {
+    left: 505px;
+  }
+}
+
+@media (max-width: 1585px) {
+  .design__nav-logo {
+    left: 444px;
+  }
+
+  .design__part-text {
+    max-width: 848px;
+    font-size: 27px;
+  }
+
+  .container {
+    max-width: 1232px;
+  }
+
+  .design__part-logo {
+    width: 313px;
+    height: 63px;
+    font-size: 45px;
+  }
+
+  .design__onlayn-title {
+    font-size: 30px;
+  }
+
+  .design__net-text {
+    margin-top: 65px;
+  }
+}
+
+@media (max-width: 1495px) {
+  .design__nav-logo {
+    left: 373px;
+  }
+
+  .design__part-logo {
+    width: 285px;
+    height: 55px;
+    font-size: 40px;
+  }
+
+  .design__part-text {
+    max-width: 777px;
+    font-size: 25px;
+  }
+
+  .design__onlayn-title {
+    font-size: 26px;
+  }
+
+  .design__net-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .design__nav-logo {
+    left: 303px;
+  }
+
+  .design__part-text {
+    max-width: 715px;
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .design__part-logo {
+    width: 255px;
+    height: 50px;
+    font-size: 35px;
+  }
+
+  .design__marketing-block {
+    left: 121px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .design__nav-logo {
+    left: 212px;
+  }
+
+  .container {
+    max-width: 1061px;
+  }
+
+  .design__questions-logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .design__nav-btn {
+    margin-right: 0;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+  }
+
+  .header__block-btn2 {
+    left: 30px;
+  }
+
+  .design__nav-logo {
+    left: 171px;
+  }
+
+  .design__marketing-block {
+    left: 90px;
+  }
+
+  .design__fullname-input {
+    width: 500px;
+    height: 45px;
+  }
+
+  .design__mailcont-input {
+    width: 240px;
+    height: 45px;
+  }
+
+  .design__send-title {
+    padding: 0;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design__questions-logo {
+    font-size: 26px;
+  }
+
+  .design__contacts-text {
+    font-size: 17px;
+  }
+
+  .design__contacts-title {
+    font-size: 18px;
+  }
+
+  .design__mail-text {
+    font-size: 19px;
+    margin-top: 0;
+  }
+
+  .container {
+    max-width: 989px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .design__nav-btn {
+    display: none;
+  }
+
+  .header__block-btn2 {
+    top: 23px;
+  }
+
+  .design__marketing-block {
+    left: 66px;
+  }
+
+  .design__part-text {
+    max-width: 555px;
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+  .design__onlayn-title {
+    font-size: 20px;
+  }
+
+  .design__onlayn-text {
+    max-width: 555px;
+    font-size: 19px;
+    margin-top: 35px;
+  }
+
+  .design__net-title {
+    font-size: 22px;
+  }
+
+  .design__net-text {
+    max-width: 555px;
+    font-size: 19px;
+    margin-top: 35px;
+  }
+
+  .design-footer {
+    top: 1091px;
+  }
+
+  .design__fullname-input {
+    width: 480px;
+    height: 40px;
+  }
+
+  .design__mailcont-input {
+    width: 232px;
+    height: 40px;
+  }
+
+  .design__send-title {
+    width: 488px;
+  }
+
+  .design__questions-logo {
+    font-size: 25px;
+  }
+
+  .container {
+    max-width: 949px;
+  }
+}
+
+@media (max-width: 950px) {
+  .design__questions-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design-footer {
+    height: 900px;
+  }
+
+  .design__questions-logo {
+    font-size: 32px;
+  }
+
+  .design__questions-right-strip {
+    width: 88%;
+    margin-top: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .design__fullname-input {
+    width: 520px;
+    height: 45px;
+  }
+
+  .design__mailcont-input {
+    width: 250px;
+    height: 45px;
+  }
+
+  .design__send-title {
+    width: 524px;
+  }
+}
+
+@media (max-width: 888px) {
+  .design__nav-logo {
+    left: 122px;
+  }
+}
+
+@media (max-width: 800px) {
+  .design__nav-logo {
+    left: 78px;
+  }
+}
+
+@media (max-width: 700px) {
+  .design__nav-logo {
+    left: 77px;
+    font-size: 30px;
+  }
+
+  .header__block-btn2 {
+    top: 20px;
+  }
+
+  .design__questions-right-strip {
+    width: 98%;
+  }
+
+  .design__marketing-block {
+    left: 33px;
+  }
+}
+
+@media (max-width: 590px) {
+  .design__nav-logo {
+    left: 40px;
+  }
+
+  .design__part-logo {
+    width: 222px;
+    height: 45px;
+    font-size: 32px;
+  }
+
+  .design__part-text {
+    max-width: 484px;
+    font-size: 17px;
+    margin-top: 22px;
+    margin-bottom: 55px;
+  }
+
+  .design__onlayn-title {
+    font-size: 19px;
+  }
+
+  .design__onlayn-text {
+    max-width: 484px;
+    font-size: 17px;
+    margin-top: 22px;
+  }
+
+  .design__net-title {
+    font-size: 20px;
+  }
+
+  .design__net-text {
+    max-width: 484px;
+    font-size: 17px;
+    margin-top: 22px;
+  }
+
+  .design-footer {
+    top: 939px;
+  }
+
+  .design__questions-logo {
+    font-size: 27px;
+  }
+
+  .design__fullname-input {
+    width: 440px;
+    height: 40px;
+  }
+
+  .design__mailcont-input {
+    width: 211px;
+    height: 40px;
+  }
+
+  .design__send-title {
+    width: 446px;
+  }
+}
+
+@media (max-width: 530px) {
+  .design__part-text {
+    max-width: 444px;
+    font-size: 16px;
+  }
+
+  .design__net-text {
+    max-width: 444px;
+    font-size: 16px;
+  }
+
+  .design__onlayn-text {
+    max-width: 444px;
+    font-size: 16px;
+  }
+
+  .design__nav-logo {
+    left: 30px;
+    font-size: 27px;
+  }
+
+  .header__block-btn2 {
+    top: 18px;
+  }
+
+  .design__questions-logo {
+    font-size: 25px;
+  }
+
+  .design__fullname-input {
+    width: 400px;
+    height: 35px;
+    font-size: 21px;
+  }
+
+  .design__mailcont-input {
+    width: 192px;
+    height: 35px;
+  }
+
+  .design__send-title {
+    width: 408px;
+  }
+}
+
+@media (max-width: 475px) {
+  .design__nav-logo {
+    left: 15px;
+    font-size: 20px;
+  }
+
+  .header__block-btn2 {
+    top: 13px;
+    left: 5px;
+  }
+
+  .design__marketing-block {
+    left: 20px;
+  }
+
+  .design__part-text {
+    max-width: 380px;
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .design__onlayn-text {
+    max-width: 380px;
+    font-size: 14px;
+  }
+
+  .design__net-text {
+    max-width: 380px;
+    font-size: 14px;
+  }
+
+  .design__onlayn-title {
+    width: 200px;
+  }
+
+  .design__net-title {
+    font-size: 19px;
+  }
+
+  .design__part-logo {
+    width: 177px;
+    height: 38px;
+    font-size: 27px;
+  }
+
+  .design__questions-logo {
+    font-size: 21px;
+  }
+
+  .design__contacts-text {
+    font-size: 15px;
+  }
+
+  .design__contacts-title {
+    font-size: 17px;
+  }
+
+  .design__questions-right-strip {
+    width: 100%;
+  }
+
+  .design__mail-text {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .design__fullname-input {
+    width: 360px;
+    height: 33px;
+  }
+
+  .design__mailcont-input {
+    width: 172px;
+    height: 32px;
+  }
+
+  .design__send-title {
+    width: 368px;
+  }
+}
+
+@media (max-width: 390px) {
+  .design__nav-logo {
+    left: 15px;
+    font-size: 18px;
+  }
+
+  .header__block-btn2 {
+    top: 12px;
+    left: 5px;
+  }
+
+  .design__part-logo {
+    width: 166px;
+    height: 36px;
+    font-size: 25px;
+  }
+
+  .design__fullname-input {
+    width: 333px;
+  }
+
+  .design__mailcont-input {
+    width: 158px;
+  }
+
+  .design__send-title {
+    width: 343px;
+  }
+}
+
+@media (max-width: 368px) {
+  .header__block-btn2 {
+    left: 5px;
+    top: 11px;
+  }
+
+  .design__nav-logo {
+    left: 8px;
+    font-size: 17px;
+  }
+
+  .design__questions-logo {
+    font-size: 18px;
+  }
+
+  .design__fullname-input {
+    width: 300px;
+  }
+
+  .design__mailcont-input {
+    width: 141px;
+  }
+
+  .design__send-title {
+    width: 307px;
+  }
+}
+
+/* =============== THE END =============== */

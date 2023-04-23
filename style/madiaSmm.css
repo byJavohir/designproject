@@ -1,0 +1,678 @@
+@media (max-width: 2000px) {
+  .smm__nav-btn {
+    z-index: -1;
+  }
+  .smm__nav-logo {
+    left: 620px;
+  }
+  .smm__nav-text:hover {
+    color: #a57526;
+  }
+  .header__block-btn2 {
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    display: block;
+    z-index: 1;
+    background: none;
+  }
+
+  .header__nav-block {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    top: 0;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .header__nav-block.active {
+    left: 0;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 1800px) {
+  .smm__nav-logo {
+    left: 555px;
+  }
+}
+@media (max-width: 1717px) {
+  .smm__nav-logo {
+    left: 484px;
+  }
+}
+@media (max-width: 1550px) {
+  .smm__nav-logo {
+    left: 404px;
+  }
+  .smm__part-text {
+    font-size: 25px;
+  }
+  .smm__part-logo {
+    width: 400px;
+    height: 66px;
+    font-size: 44px;
+  }
+  .container {
+    max-width: 1190px;
+  }
+}
+@media (max-width: 1450px) {
+  .smm__nav-logo {
+    left: 333px;
+  }
+  .smm__part-logo {
+    width: 350px;
+    height: 60px;
+    font-size: 38px;
+  }
+  .smm__part-text {
+    max-width: 969px;
+  }
+}
+@media (max-width: 1330px) {
+  .smm__nav-logo {
+    left: 280px;
+  }
+  .smm__part-text {
+    max-width: 828px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 1180px) {
+  .smm__nav-logo {
+    left: 220px;
+  }
+  .smm__marketing-block {
+    left: 111px;
+  }
+  .smm__fullname-input {
+    width: 500px;
+    height: 45px;
+  }
+  .smm__mailcont-input {
+    width: 242px;
+    height: 45px;
+  }
+  .smm__contacts-text {
+    font-size: 17px;
+  }
+  .smm__contacts-title {
+    font-size: 18px;
+  }
+  .smm__questions-logo {
+    font-size: 25px;
+  }
+  .smm__mail-text {
+    font-size: 19px;
+    margin-top: 1px;
+  }
+  .smm__send-title {
+    padding: 17px 193px;
+  }
+
+  .container {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1100px) {
+  .smm__nav-logo {
+    left: 180px;
+    font-size: 36px;
+  }
+  .smm__nav-btn {
+    margin-right: 0;
+  }
+  .header__block-btn2 {
+    left: 60px;
+  }
+  .smm__part-text {
+    max-width: 757px;
+    font-size: 22px;
+    margin-bottom: 90px;
+  }
+  .smm__part-text {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 990px) {
+  .smm__nav-logo {
+    left: 150px;
+    font-size: 36px;
+  }
+  .header__block-btn2 {
+    left: 25px;
+  }
+  .smm__nav-btn {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+  }
+  .smm__nav-btn {
+    width: 166px;
+    height: 40px;
+    font-size: 19px;
+  }
+  .smm__fullname-input {
+    width: 474px;
+    height: 43px;
+  }
+  .smm__mailcont-input {
+    width: 228px;
+    height: 43px;
+  }
+  .smm__send-title {
+    padding: 15px 186px;
+  }
+  .container {
+    max-width: 943px;
+  }
+}
+@media (max-width: 930px) {
+  .header__block-btn2 {
+    top: 16px;
+  }
+  .smm__nav-btn {
+    top: 16px;
+  }
+  .smm__questions-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .smm__questions-right-strip {
+    width: 78%;
+    margin-top: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .smm-footer {
+    height: 900px;
+  }
+  .smm__questions-logo {
+    font-size: 35px;
+  }
+  .smm__contacts-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .smm__contacts-text {
+    font-size: 18px;
+  }
+  .smm__mail-title {
+    font-size: 22px;
+  }
+  .smm__mail-text {
+    font-size: 20px;
+  }
+  .smm__fullname-input {
+    width: 521px;
+    height: 50px;
+  }
+  .smm__mailcont-input {
+    width: 250px;
+    height: 50px;
+  }
+  .smm__send-title {
+    padding: 17px 193px;
+  }
+}
+@media (max-width: 888px) {
+  .smm__nav-logo {
+    left: 140px;
+    font-size: 32px;
+  }
+  .smm__marketing-block {
+    left: 60px;
+  }
+  .smm__part-logo {
+    width: 303px;
+    height: 53px;
+    font-size: 34px;
+  }
+  .smm__part-text {
+    max-width: 757px;
+    font-size: 21px;
+    margin-bottom: 70px;
+  }
+  .smm__net-text {
+    max-width: 716px;
+    margin-top: 85px;
+  }
+}
+@media (max-width: 838px) {
+  .smm__nav-logo {
+    left: 118px;
+    font-size: 30px;
+  }
+  .smm__part-text {
+    max-width: 630px;
+  }
+  .smm__onlayn-text {
+    max-width: 667px;
+  }
+  .smm__net-text {
+    max-width: 667px;
+  }
+}
+@media (max-width: 800px) {
+  .smm__nav-btn {
+    top: 21px;
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
+  }
+  .smm__part-logo {
+    width: 282px;
+    height: 52px;
+    font-size: 32px;
+  }
+}
+@media (max-width: 785px) {
+  .smm__nav-logo {
+    left: 88px;
+  }
+}
+@media (max-width: 750px) {
+  .smm__nav-btn {
+    display: none;
+  }
+  .smm__onlayn-text {
+    max-width: 565px;
+    margin-top: 49px;
+    margin-bottom: 141px;
+  }
+  .smm__net-text {
+    max-width: 565px;
+    margin-top: 40px;
+  }
+  .smm__part-logo {
+    width: 262px;
+    height: 50px;
+    font-size: 28px;
+  }
+  .smm__part-text {
+    max-width: 565px;
+  }
+}
+@media (max-width: 660px) {
+  .smm__questions-right-strip {
+    width: 100%;
+  }
+  .smm__fullname-input {
+    width: 474px;
+    height: 45px;
+  }
+  .smm__mailcont-input {
+    width: 226px;
+    height: 45px;
+  }
+  .smm__questions-logo {
+    font-size: 30px;
+  }
+  .smm__send-title {
+    padding: 0;
+    width: 474px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smm__part-text {
+    max-width: 484px;
+  }
+  .smm__onlayn-text {
+    max-width: 484px;
+  }
+  .smm__net-text {
+    max-width: 484px;
+  }
+  .smm__onlayn-title {
+    padding: 50px 0 0;
+  }
+  .smm__net-title {
+    padding: 50px 0 0;
+  }
+  .header__block-btn2 {
+    top: 22px;
+  }
+  .smm__nav-logo {
+    left: 60px;
+  }
+}
+@media (max-width: 565px) {
+  .smm__nav-logo {
+    left: 35px;
+  }
+  .smm__marketing-block {
+    left: 44px;
+  }
+}
+@media (max-width: 545px) {
+  .smm__marketing-block {
+    left: 33px;
+  }
+  .smm__part-text {
+    font-weight: 700;
+    font-size: 19px;
+    max-width: 440px;
+  }
+  .smm__questions-logo {
+    font-size: 27px;
+  }
+  .smm__fullname-input {
+    width: 430px;
+    height: 40px;
+  }
+  .smm__send-title {
+    width: 430px;
+  }
+  .smm__mailcont-input {
+    width: 205px;
+    height: 45px;
+  }
+  .smm__onlayn-text {
+    max-width: 389px;
+  }
+  .smm__net-text {
+    max-width: 389px;
+  }
+  .smm-footer {
+    top: 1303px;
+  }
+}
+@media (max-width: 515px) {
+  .header__block-btn2 {
+    top: 18px;
+    left: 15px;
+  }
+  .smm__nav-logo {
+    left: 16px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 484px) {
+  .smm__nav-logo {
+    left: 15px;
+    font-size: 25px;
+  }
+  .smm__marketing-block {
+    left: 22px;
+  }
+  .smm__part-text {
+    font-size: 18px;
+  }
+  .smm__part-logo {
+    width: 235px;
+    height: 45px;
+    font-size: 26px;
+  }
+  .smm__onlayn-title {
+    font-size: 30px;
+    padding: 30px 0 0;
+  }
+  .smm__net-title {
+    font-size: 30px;
+    padding: 30px 0 0;
+  }
+  .smm-footer {
+    top: 1252px;
+  }
+  .smm__questions-logo {
+    font-size: 25px;
+  }
+  .smm__fullname-input {
+    width: 400px;
+  }
+  .smm__mailcont-input {
+    width: 191px;
+    height: 40px;
+  }
+  .smm__send-title {
+    width: 405px;
+  }
+  .smm__mail-text {
+    font-size: 19px;
+  }
+  .smm__contacts-title {
+    font-size: 21px;
+  }
+  .smm__contacts-text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 444px) {
+  .smm__part-text {
+    max-width: 400px;
+  }
+  .smm__nav-logo {
+    left: 11px;
+    font-size: 22px;
+  }
+  .header__block-btn2 {
+    top: 14px;
+    left: 10px;
+  }
+  .smm__part-logo {
+    width: 212px;
+    height: 42px;
+    font-size: 23px;
+  }
+  .smm__questions-logo {
+    font-size: 22px;
+  }
+  .smm__fullname-input {
+    width: 363px;
+  }
+  .smm__mailcont-input {
+    width: 173px;
+  }
+  .smm__send-title {
+    width: 371px;
+  }
+}
+@media (max-width: 414px) {
+  .header__block-btn2 {
+    top: 14px;
+    left: 10px;
+  }
+  .smm__nav-logo {
+    left: 10px;
+    font-size: 21px;
+  }
+  .smm__nav-btn {
+    display: none;
+  }
+  .smm__marketing-block {
+    left: 22px;
+  }
+  .smm__part-text {
+    max-width: 365px;
+  }
+  .smm__onlayn-text {
+    max-width: 343px;
+  }
+  .smm__net-text {
+    max-width: 343px;
+  }
+  .smm__part-logo {
+    width: 267px;
+    height: 48px;
+    font-size: 30px;
+  }
+  .smm__onlayn-title {
+    padding-top: 80px;
+  }
+  .smm__net-title {
+    padding-top: 80px;
+  }
+  .smm-footer {
+    top: 1373px;
+  }
+  .smm__questions-logo {
+    font-size: 23px;
+  }
+  .smm__contacts-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .smm__mail-title {
+    font-size: 20px;
+  }
+  .smm__mail-text {
+    font-size: 19px;
+  }
+  .smm__questions-right-strip {
+    width: 100%;
+  }
+  .smm__fullname-input {
+    width: 381px;
+    height: 45px;
+  }
+  .smm__mailcont-input {
+    width: 180px;
+    height: 40px;
+  }
+  .smm__send-title {
+    width: 381px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+@media (max-width: 400px) {
+  .smm__nav-logo {
+    left: 10px;
+    font-size: 18px;
+  }
+  .smm__questions-logo {
+    font-size: 20px;
+  }
+  .smm__fullname-input {
+    width: 343px;
+    height: 40px;
+  }
+  .smm__mailcont-input {
+    width: 162px;
+    height: 35px;
+  }
+  .smm__send-title {
+    width: 349px;
+    height: 50px;
+  }
+  .smm__images-teg {
+    width: 26px;
+  }
+  .smm__marketing-block {
+    top: 144px;
+  }
+  .smm__net-text {
+    margin-top: 55px;
+  }
+  .header__block-btn2 {
+    top: 12px;
+  }
+}
+@media (max-width: 370px) {
+  .smm__nav-logo {
+    left: 10px;
+    font-size: 17px;
+  }
+  .smm__part-logo {
+    width: 244px;
+    height: 44px;
+    font-size: 28px;
+  }
+  .smm__part-text {
+    max-width: 333px;
+    font-size: 17px;
+    margin-bottom: 50px;
+  }
+  .smm__onlayn-title {
+    font-size: 31px;
+  }
+  .smm__onlayn-text {
+    max-width: 333px;
+    font-size: 18px;
+    margin-top: 39px;
+    margin-bottom: 121px;
+  }
+  .smm__net-title {
+    font-size: 31px;
+  }
+  .smm__net-text {
+    max-width: 333px;
+    font-size: 18px;
+    margin-top: 39px;
+  }
+  .smm__fullname-input {
+    width: 323px;
+    height: 36px;
+    font-size: 22px;
+  }
+  .smm__fullname-title {
+    margin-bottom: 10px;
+  }
+  .smm__mailcont-input {
+    width: 153px;
+    height: 33px;
+  }
+  .smm__send-title {
+    width: 332px;
+  }
+  .smm-footer {
+    top: 1292px;
+  }
+  .header__block-btn2 {
+    top: 11px;
+  }
+}
+@media (max-width: 355px) {
+  .smm__marketing-block {
+    left: 15px;
+  }
+  .smm__part-logo {
+    width: 220px;
+    height: 40px;
+    font-size: 25px;
+  }
+  .container {
+    max-width: 323px;
+  }
+  .smm__questions-logo {
+    font-size: 18px;
+  }
+  .smm__contacts-title {
+    font-size: 17px;
+  }
+  .smm__contacts-text {
+    font-size: 16px;
+  }
+  .smm__mail-text {
+    font-size: 18px;
+  }
+  .smm__fullname-input {
+    width: 300px;
+    height: 33px;
+    font-size: 20px;
+  }
+  .smm__mailcont-input {
+    width: 142px;
+  }
+  .smm__send-title {
+    width: 308px;
+  }
+  .smm__questions-right-strip {
+    width: 113%;
+  }
+}
+/* =============== THE END =============== */

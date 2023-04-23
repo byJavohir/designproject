@@ -1,0 +1,1066 @@
+@media (max-width: 2000px) {
+  .portfoliu__nav-logo {
+    left: 620px;
+  }
+  .portfoliu__nav-text:hover {
+    color: #a57526;
+  }
+  .header__block-btn2 {
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    display: block;
+    z-index: 1;
+    background: none;
+  }
+
+  .header__nav-block {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    top: 0;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .header__nav-block.active {
+    left: 0;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 1800px) {
+  .portfoliu__nav-logo {
+    left: 535px;
+  }
+  .portfoliu__images {
+    left: 272px;
+  }
+  .portfoliu-btn {
+    left: 808px;
+  }
+}
+@media (max-width: 1660px) {
+  .portfoliu__nav-logo {
+    left: 464px;
+  }
+  .container {
+    max-width: 1313px;
+  }
+  .portfoliu__nosinc {
+    left: 144px;
+  }
+  .portfoliu__nosinc-items-text {
+    font-size: 35px;
+    width: 166px;
+  }
+  .portfoliu__nosinc-items-texts {
+    font-size: 33px;
+    width: 176px;
+  }
+  .portfoliu__images {
+    left: 200px;
+  }
+  .portfoliu-btn {
+    left: 727px;
+  }
+}
+@media (max-width: 1565px) {
+  .portfoliu__images {
+    left: 128px;
+  }
+  .portfoliu-btn {
+    left: 656px;
+  }
+  .container {
+    max-width: 1252px;
+  }
+  .portfoliu__nosinc-logo-title {
+    width: 244px;
+    height: 60px;
+    font-size: 35px;
+  }
+  .portfoliu__nosinc-items {
+    position: absolute;
+    top: 0;
+    left: 525px;
+  }
+  .portfoliu__nav-logo {
+    left: 400px;
+  }
+}
+@media (max-width: 1444px) {
+  .portfoliu__item-img-watch {
+    max-width: 500px;
+    height: 235px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 500px;
+    height: 235px;
+  }
+  .portfoliu__item-img-veb {
+    max-width: 500px;
+    height: 500px;
+  }
+  .portfoliu__item-text-veb {
+    width: 150px;
+    height: 50px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 500px;
+    height: 235px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 500px;
+    height: 235px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 500px;
+    height: 500px;
+  }
+  .portfoliu__item-text-watch {
+    width: 313px;
+    height: 90px;
+    font-size: 25px;
+  }
+  .portfoliu__item-text-cofe {
+    width: 252px;
+    height: 90px;
+    font-size: 25px;
+  }
+  .portfoliu__item-text-inter {
+    width: 262px;
+    height: 80px;
+    font-size: 25px;
+  }
+  .portfoliu__item-text-mobile {
+    width: 181px;
+    height: 80px;
+    font-size: 25px;
+  }
+  .portfoliu__item-text-agents {
+    width: 222px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  .portfoliu__item-text_watch {
+    top: 20px;
+    left: 30px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 292px;
+    left: 225px;
+  }
+  .portfoliu__item-text_veb {
+    top: 585px;
+    left: 33px;
+  }
+  .portfoliu__item-text_inter {
+    top: 838px;
+    right: 205px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 565px;
+    right: 288px;
+  }
+  .portfoliu__item-text_agents {
+    top: 20px;
+    left: 580px;
+  }
+  .portfoliu__nosinc-items {
+    left: 505px;
+  }
+  .portfoliu__nosinc-items-text {
+    font-size: 30px;
+    width: 133px;
+  }
+  .portfoliu__nosinc-items-texts {
+    font-size: 28px;
+    width: 151px;
+  }
+  .portfoliu__nosinc-logo-title {
+    width: 202px;
+    height: 45px;
+    font-size: 28px;
+  }
+  .portfoliu__nav-logo {
+    left: 350px;
+  }
+  .portfoliu__nav-btn{
+    margin-right: 0;
+  }
+  .portfoliu-btn {
+    top: 1616px;
+    left: 560px;
+  }
+
+  .portfoliu-footer {
+    top: 1787px;
+  }
+}
+@media (max-width: 1350px) {
+  .portfoliu__nav-logo {
+    left: 282px;
+  }
+  .portfoliu__nav-btn {
+    margin-right: 0;
+  }
+  .header__block-btn2 {
+    top: 22px;
+    left: 50px;
+  }
+  .portfoliu__nosinc-items {
+    left: 474px;
+  }
+  .portfoliu__nosinc {
+    left: 135px;
+  }
+  .container {
+    max-width: 1090px;
+  }
+  .portfoliu__questions-logo {
+    font-size: 32px;
+  }
+  .portfoliu__fullname-input {
+    width: 484px;
+    height: 45px;
+  }
+  .portfoliu__mailcont-input {
+    width: 234px;
+    height: 45px;
+  }
+  .portfoliu__send-title {
+    padding: 0;
+    width: 492px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfoliu__images {
+    top: 393px;
+  }
+  .portfoliu__item-img-watch {
+    max-width: 464px;
+    height: 218px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 464px;
+    height: 218px;
+  }
+  .portfoliu__item-img-veb {
+    max-width: 466px;
+    height: 466px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 464px;
+    height: 218px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 464px;
+    height: 218px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 466px;
+    height: 466px;
+  }
+  .portfoliu__item-text-watch {
+    font-size: 22px;
+  }
+  .portfoliu__item-text-cofe {
+    font-size: 22px;
+  }
+  .portfoliu__item-text-veb {
+    font-size: 28px;
+  }
+  .portfoliu__item-text-agents {
+    font-size: 22px;
+  }
+  .portfoliu__item-text-mobile {
+    font-size: 22px;
+  }
+  .portfoliu__item-text-inter {
+    font-size: 22px;
+  }
+  .portfoliu__item-text_agents {
+    left: 550px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 525px;
+    right: 255px;
+  }
+  .portfoliu__item-text_inter {
+    top: 780px;
+    right: 171px;
+  }
+  .portfoliu__nosinc-items-text {
+    font-size: 28px;
+    width: 122px;
+  }
+  .portfoliu__nosinc-items {
+    left: 422px;
+  }
+  .portfoliu-btn {
+    top: 1424px;
+    left: 525px;
+  }
+  .portfoliu-footer {
+    top: 1595px;
+  }
+}
+@media (max-width: 1190px) {
+  .portfoliu__nav-logo {
+    left: 255px;
+    font-size: 36px;
+  }
+  .portfoliu__nosinc-logo {
+    margin-right: 0;
+  }
+  .portfoliu__item-img-watch {
+    width: 100%;
+    max-width: 414px;
+    height: 195px;
+  }
+  .portfoliu__item-img-cofe {
+    width: 100%;
+    max-width: 414px;
+    height: 195px;
+  }
+  .portfoliu__item-img-veb {
+    width: 100%;
+    max-width: 414px;
+    height: 414px;
+  }
+  .portfoliu__item-img-agents {
+    width: 100%;
+    max-width: 414px;
+    height: 414px;
+  }
+  .portfoliu__item-img-mobile {
+    width: 100%;
+    max-width: 414px;
+    height: 195px;
+  }
+  .portfoliu__item-img-inter {
+    width: 100%;
+    max-width: 414px;
+    height: 195px;
+  }
+  .portfoliu__item-text-watch {
+    width: 100%;
+    max-width: 252px;
+    height: 70px;
+    font-size: 20px;
+  }
+  .portfoliu__item-text-cofe {
+    width: 100%;
+    max-width: 212px;
+    height: 70px;
+    font-size: 20px;
+  }
+  .portfoliu__item-text-agents {
+    height: 70px;
+    font-size: 20px;
+  }
+  .portfoliu__item-text-mobile {
+    height: 70px;
+    font-size: 20px;
+  }
+  .portfoliu__item-text-inter {
+    height: 70px;
+    font-size: 20px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 262px;
+    left: 195px;
+  }
+  .portfoliu__item-text_veb {
+    top: 515px;
+    left: 35px;
+  }
+  .portfoliu__item-text_agents {
+    left: 494px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 474px;
+    right: 205px;
+  }
+  .portfoliu__item-text_inter {
+    top: 707px;
+    right: 125px;
+  }
+  .portfoliu-btn {
+    top: 1333px;
+    left: 466px;
+  }
+  .portfoliu-footer {
+    width: 100%;
+    top: 1474px;
+    max-width: 1190px;
+  }
+  .container {
+    width: 100%;
+    max-width: 949px;
+  }
+  .portfoliu__fullname-input {
+    width: 100%;
+    max-width: 454px;
+    height: 40px;
+    font-size: 22px;
+  }
+  .portfoliu__mailcont-input {
+    width: 100%;
+    max-width: 219px;
+    height: 40px;
+  }
+  .portfoliu__send-title {
+    width: 100%;
+    max-width: 463px;
+  }
+  .portfoliu__questions-logo {
+    font-size: 26px;
+  }
+  .portfoliu__contacts-title {
+    font-size: 19px;
+  }
+  .portfoliu__contacts-text {
+    font-size: 17px;
+  }
+  .portfoliu__mail-text {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .portfoliu__images-teg {
+    width: 100%;
+    max-width: 25px;
+  }
+  .portfoliu__nosinc-items-text {
+    width: 100%;
+    font-size: 25px;
+    max-width: 80px;
+  }
+  .portfoliu__nosinc-items-texts {
+    width: 100%;
+    font-size: 25px;
+    max-width: 122px;
+  }
+  .portfoliu__nosinc-items {
+    left: 410px;
+  }
+  .portfoliu__nosinc {
+    left: 191px;
+  }
+  .portfoliu__nosinc-items {
+    left: 323px;
+  }
+  .portfoliu__nav-btn {
+    position: absolute;
+    top: 22px;
+    right: 44px;
+  }
+  .header__block-btn2 {
+    left: 44px;
+  }
+}
+@media (max-width: 1066px) {
+  .portfoliu__nav-logo {
+    left: 222px;
+    font-size: 30px;
+  }
+  .portfoliu__nav-btn {
+    width: 151px;
+    height: 35px;
+    font-size: 17px;
+  }
+  .portfoliu__images {
+    left: 70px;
+  }
+  .portfoliu__nosinc-items {
+    position: static;
+  }
+  .portfoliu__nosinc {
+    flex-direction: column;
+    top: 141px;
+    left: 333px;
+  }
+  .portfoliu__nosinc-logo {
+    margin-bottom: 52px;
+  }
+  .portfoliu-btn {
+    left: 408px;
+  }
+  .portfoliu__nav-text {
+    font-size: 23px;
+  }
+  .portfoliu__questions-logo {
+    font-size: 24px;
+  }
+  .portfoliu__contacts-title {
+    font-size: 17px;
+  }
+  .portfoliu__contacts-text {
+    font-size: 15px;
+  }
+  .portfoliu__mail-text {
+    font-size: 17px;
+  }
+  .portfoliu__fullname-input {
+    max-width: 414px;
+    font-size: 21px;
+  }
+  .portfoliu__mailcont-input {
+    max-width: 198px;
+  }
+}
+@media (max-width: 977px) {
+  .portfoliu__nav-logo {
+    left: 181px;
+  }
+  .portfoliu__item-img-watch {
+    max-width: 353px;
+    height: 166px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 353px;
+    height: 166px;
+  }
+  .portfoliu__item-img-veb {
+    width: 100%;
+    max-width: 353px;
+    height: 353px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 353px;
+    height: 353px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 353px;
+    height: 166px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 353px;
+    height: 166px;
+  }
+  .portfoliu__item-text-watch {
+    max-width: 212px;
+    height: 50px;
+    font-size: 17px;
+  }
+  .portfoliu__item-text-cofe {
+    max-width: 170px;
+    height: 50px;
+    font-size: 17px;
+  }
+  .portfoliu__item-text-veb {
+    max-width: 140px;
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+  }
+  .portfoliu__item-text-agents {
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+  }
+  .portfoliu__item-text-mobile {
+    max-width: 120px;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+  }
+  .portfoliu__item-text-inter {
+    max-width: 180px;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 222px;
+    left: 171px;
+  }
+  .portfoliu__item-text_veb {
+    top: 444px;
+  }
+  .portfoliu__item-text_agents {
+    left: 434px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 414px;
+    right: 205px;
+  }
+  .portfoliu__item-text_inter {
+    top: 616px;
+    right: 144px;
+  }
+  .portfoliu-btn {
+    top: 1191px;
+    left: 344px;
+  }
+  .portfoliu-footer {
+    top: 1313px;
+  }
+  .portfoliu__nosinc {
+    left: 292px;
+  }
+}
+@media (max-width: 868px) {
+  .portfoliu__nav-logo {
+    font-size: 26px;
+  }
+  .portfoliu__nav-btn {
+    right: 25px;
+    font-size: 16px;
+  }
+  .portfoliu__item-img-watch {
+    max-width: 288px;
+    height: 136px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 288px;
+    height: 136px;
+  }
+  .portfoliu__item-img-veb {
+    max-width: 288px;
+    height: 288px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 288px;
+    height: 288px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 288px;
+    height: 136px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 288px;
+    height: 136px;
+  }
+  .portfoliu__nosinc {
+    left: 202px;
+  }
+  .portfoliu__item-text-watch {
+    max-width: 190px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .portfoliu__item-text-cofe {
+    max-width: 150px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .portfoliu__item-text-veb {
+    font-size: 24px;
+  }
+  .portfoliu__item-text-agents {
+    max-width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .portfoliu__item-text-mobile {
+    max-width: 100px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .portfoliu__item-text-inter {
+    max-width: 150px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .portfoliu__item-text_watch {
+    left: 20px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 190px;
+    left: 120px;
+  }
+  .portfoliu__item-text_veb {
+    top: 383px;
+  }
+  .portfoliu__item-text_agents {
+    left: 350px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 340px;
+    right: 170px;
+  }
+  .portfoliu__item-text_inter {
+    top: 520px;
+    right: 120px;
+  }
+  .portfoliu-btn {
+    top: 1066px;
+    left: 288px;
+  }
+  .portfoliu-footer {
+    top: 1181px;
+  }
+  .portfoliu__fullname-input {
+    max-width: 330px;
+    font-size: 18px;
+  }
+  .container {
+    max-width: 700px;
+  }
+  .portfoliu__mailcont-input {
+    max-width: 150px;
+    height: 35px;
+  }
+  .portfoliu__questions-logo {
+    font-size: 20px;
+  }
+  .portfoliu__nav-logo {
+    left: 144px;
+    font-size: 25px;
+  }
+  .portfoliu__nosinc-logo-title {
+    width: 181px;
+    height: 45px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 735px) {
+  .portfoliu__nav-btn {
+    display: none;
+  }
+  .portfoliu__nav-logo {
+    left: 99px;
+    font-size: 27px;
+  }
+  .portfoliu__nosinc {
+    left: 155px;
+  }
+  .portfoliu-btn {
+    top: 1909px;
+    left: 235px;
+  }
+  .portfoliu__images {
+    left: 177px;
+    flex-direction: column;
+  }
+  .portfoliu-footer {
+    top: 2062px;
+    height: 880px;
+  }
+  .portfoliu__item-img-veb {
+    margin-bottom: 0;
+  }
+  .portfoliu__item-img-inter {
+    margin-bottom: 0;
+  }
+  .portfoliu__item-text_agents {
+    top: 780px;
+    left: 20px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 1148px;
+    right: 210px;
+  }
+  .portfoliu__item-text_inter {
+    top: 1341px;
+    left: 20px;
+  }
+  .portfoliu__questions-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfoliu__questions-right-strip {
+    width: 88%;
+    margin-top: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .portfoliu__questions-logo {
+    font-size: 24px;
+  }
+  .portfoliu__fullname-input {
+    max-width: 396px;
+  }
+  .portfoliu__mailcont-input {
+    max-width: 188px;
+  }
+  .portfoliu__item-img-watch {
+    max-width: 330px;
+    height: 155px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 330px;
+    height: 155px;
+  }
+  .portfoliu__item-img-veb {
+    max-width: 330px;
+    height: 330px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 330px;
+    height: 330px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 330px;
+    height: 155px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 330px;
+    height: 155px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 210px;
+    left: 162px;
+  }
+  .portfoliu__item-text_veb {
+    top: 413px;
+  }
+  .header__block-btn2 {
+    top: 13px;
+    left: 28px;
+  }
+}
+@media (max-width: 616px) {
+  .portfoliu-btn {
+    left: 161px;
+  }
+  .portfoliu__nav-logo {
+    top: 0;
+    left: 40px;
+  }
+  .portfoliu__nosinc {
+    left: 90px;
+  }
+  .portfoliu__images {
+    left: 97px;
+  }
+}
+@media (max-width: 525px) {
+  .portfoliu__nosinc {
+    left: 90px;
+  }
+  .portfoliu__images {
+    left: 95px;
+  }
+  .portfoliu__nav-logo {
+    font-size: 22px;
+    left: 55px;
+  }
+  .header__block-btn2 {
+    top: 9px;
+  }
+  .portfoliu-btn {
+    left: 151px;
+  }
+}
+@media (max-width: 474px) {
+  .portfoliu__nosinc {
+    top: 110px;
+    left: 66px;
+  }
+  .portfoliu__nosinc-items-text {
+    font-size: 22px;
+  }
+  .portfoliu__nosinc-items-texts {
+    font-size: 22px;
+  }
+  .portfoliu__images {
+    top: 363px;
+    left: 75px;
+    align-items: inherit;
+  }
+  .portfoliu-btn {
+    left: 110px;
+  }
+  .portfoliu__questions-logo {
+    font-size: 20px;
+  }
+  .portfoliu__mailcont-input {
+    max-width: 150px;
+  }
+  .portfoliu__fullname-input {
+    max-width: 320px;
+    height: 35px;
+  }
+  .header__block-btn2 {
+    left: 10px;
+  }
+  .portfoliu__nav-logo {
+    left: 25px;
+  }
+  .portfoliu__item-img-watch {
+    max-width: 300px;
+    height: 141px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 300px;
+    height: 141px;
+  }
+  .portfoliu__item-img-veb {
+    max-width: 300px;
+    height: 300px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 300px;
+    height: 300px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 300px;
+    height: 141px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 300px;
+    height: 141px;
+  }
+  .portfoliu-btn {
+    top: 1777px;
+    left: 117px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 196px;
+    left: 132px;
+  }
+  .portfoliu__item-text_veb {
+    top: 392px;
+  }
+  .portfoliu__item-text_agents {
+    top: 720px;
+    left: 20px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 1060px;
+    right: 180px;
+  }
+  .portfoliu__item-text_inter {
+    top: 1240px;
+  }
+  .portfoliu-footer {
+    top: 1919px;
+  }
+}
+@media (max-width: 414px) {
+  .portfoliu__images {
+    left: 61px;
+  }
+  .portfoliu__nosinc-items-text {
+    font-size: 20px;
+  }
+  .portfoliu__nosinc-items-texts {
+    font-size: 20px;
+  }
+  .portfoliu__nosinc-logo-title {
+    width: 161px;
+    height: 40px;
+    font-size: 22px;
+  }
+  .portfoliu__nosinc {
+    left: 50px;
+  }
+  .portfoliu__nav-logo {
+    left: 15px;
+    font-size: 19px;
+  }
+  .header__block-btn2 {
+    top: 8px;
+    left: 5px;
+  }
+  .portfoliu__item-img-watch {
+    max-width: 282px;
+    height: 133px;
+  }
+  .portfoliu__item-img-cofe {
+    max-width: 282px;
+    height: 133px;
+  }
+  .portfoliu__item-img-veb {
+    max-width: 282px;
+    height: 282px;
+  }
+  .portfoliu__item-img-agents {
+    max-width: 282px;
+    height: 282px;
+  }
+  .portfoliu__item-img-mobile {
+    max-width: 282px;
+    height: 133px;
+  }
+  .portfoliu__item-img-inter {
+    max-width: 282px;
+    height: 133px;
+  }
+  .portfoliu-btn {
+    top: 1696px;
+    left: 101px;
+  }
+  .portfoliu__item-text_cofe {
+    top: 188px;
+    left: 114px;
+  }
+  .portfoliu__item-text_veb {
+    top: 383px;
+    left: 20px;
+  }
+  .portfoliu__item-text_agents {
+    top: 687px;
+  }
+  .portfoliu__item-text_mobile {
+    top: 1008px;
+    right: 160px;
+  }
+  .portfoliu__item-text_inter {
+    top: 1180px;
+    right: 110px;
+    left: inherit;
+  }
+}
+@media (max-width: 375px) {
+  .header__block-btn2 {
+    width: 36px;
+    height: 32px;
+    top: 10px;
+  }
+  .portfoliu__nosinc {
+    left: 35px;
+  }
+  .portfoliu__nosinc-items-text {
+    font-size: 18px;
+  }
+  .portfoliu__nosinc-items-texts {
+    font-size: 18px;
+  }
+  .portfoliu__images {
+    top: 323px;
+    left: 35px;
+  }
+  .portfoliu__nav-logo {
+    left: 6px;
+    font-size: 17px;
+  }
+  .portfoliu-btn {
+    top: 1666px;
+    left: 77px;
+  }
+  .portfoliu-footer {
+    top: 1787px;
+  }
+  .portfoliu__questions-logo {
+    font-size: 18px;
+  }
+  .portfoliu__mailcont-input {
+    max-width: 125px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .portfoliu__fullname-input {
+    max-width: 270px;
+    height: 35px;
+  }
+  .portfoliu__questions-right-strip {
+    width: 100%;
+  }
+}
